@@ -1,0 +1,45 @@
+/* 
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Cinzel', serif;
+ */
+/* Menú */
+a{
+    font-family:'Cinzel', serif;
+    font-size: 1.3em;
+
+}
+.custom-logo{
+    font-family: 'Permanent Marker', cursive!important;
+    font-size:2em!important;
+}
+.bg-dark{
+    background-color:none!important;
+}
+
+/* Transition effect */
+.navbar {
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.show{
+    background: #2a2424e6;
+}
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    border-bottom: 1px solid white;
+}
+.nav-item{
+    text-align:center;
+}
+@media only screen and (max-width: 780px) {
+   
+    .navbar-brand{
+        font-size:1.2em!important;
+    }
+    .lead{
+        display:none;
+    }
+}
